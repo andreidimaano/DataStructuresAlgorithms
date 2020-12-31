@@ -5,7 +5,7 @@
 Table of Contents
 <ul>
   <li>Array</li>
-  <li>Linked List</li>
+  <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/linked-list">Linked List</a></li>
   <li>HashMap</li>
   <li>HashSet</li>
   <li>Graph</li>
