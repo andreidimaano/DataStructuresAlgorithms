@@ -37,6 +37,7 @@ class LinkedList {
             if(head && head->value == value) {
                 head = head->next;
                 delete temp;
+                return;
             }
 
             // case 2: any other node
@@ -51,19 +52,21 @@ class LinkedList {
             }
         }
         void insertAfter(Node* prev, const int & value) {
-            Node* newNode = new Node();
-            newNode->value = value;
-            prev->next = newNode;
+            if(prev) {
+                Node* newNode = new Node();
+                newNode->value = value;
+                prev->next = newNode;
+            }
         }
         void insertNodeAfter(Node* prev, Node* node) {
-            if(!isChild(prev->value, node->value)) {
+            if(!isChild(node->value, prev->value)) {
                 if(prev->next) {
                     Node* temp = node;
                     while(temp->next) {
                         temp = temp->next;
-                }
-
-                temp->next = prev->next;
+                    }
+                
+                    temp->next = prev->next;
                 }
 
                 prev->next = node;
@@ -92,7 +95,8 @@ class LinkedList {
     private:
         Node* head = nullptr;
         bool isChild(int parent, int valueToCheck) {
-            Node* temp = head;
+            Node* temp = getNode(parent);
+
             while(temp) {
                 if(temp->value == valueToCheck) {
                     return true;

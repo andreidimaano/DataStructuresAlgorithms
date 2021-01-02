@@ -8,7 +8,7 @@
             <li>What are the parameters for push()?</li>
                 <ul>
                     <li>What are the steps for push()?</li>
-                </ul>
+                </ul> </br>
             <li>What are the parameters for insertAfter()?</li>
                 <ul>
                     <li>What are the steps for insertAfter()?</li>
@@ -22,5 +22,5 @@
                     <li>What are the steps for append()?</li>
                 </ul>
         </ul>
-        
+    <li>How do you remove in a Singly Linked List?</li>
 </ul>
