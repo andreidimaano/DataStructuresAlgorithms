@@ -79,7 +79,7 @@ class LinkedList {
                 temp = temp->next;
             }
 
-            return (temp->value == value) ? temp : nullptr;
+            return (temp && temp->value == value) ? temp : nullptr;
         }
 
         void printList() const {

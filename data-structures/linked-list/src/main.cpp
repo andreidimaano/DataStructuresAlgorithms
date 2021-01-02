@@ -8,6 +8,7 @@ int main() {
     LinkedList list;
     LinkedList list2;
 
+    cout << "hello world";
     // Node* n1 = new Node();
     // n1->value = 1;
     // list.push(n1);
@@ -48,7 +49,7 @@ int main() {
     list.insertNodeAfter(n3, n4);
     
     list.printList();
-    list2.printList();
+    // list2.printList();
 
     return 0;
 }
