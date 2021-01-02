@@ -24,6 +24,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 <h2>Solution</h2>
 
-Initial Solution: In this solution, we convert the lists into numbers, add them together, then convert the result into a list.<a href="https://github.com/andreidimaano/DataStructuresAlgorithms/blob/main/data-structures/linked-list/LeetCode/Add-Two-Numbers/solution1.cpp">solution1.cpp</a> only works if the numbers are small. We instead want to approach the problem like a full adder circuit.
+Initial Solution: In this solution, we convert the lists into numbers, add them together, then convert the result into a list. However, <a href="https://github.com/andreidimaano/DataStructuresAlgorithms/blob/main/data-structures/linked-list/LeetCode/Add-Two-Numbers/solution1.cpp">solution1.cpp</a> only works if the numbers are small. We instead want to approach the problem like a full adder circuit.
 
 Full Adder Circuit Solution: A Full Adder Circuit takes in 3 inputs: operand1, operand2, carry. It produces 2 outputs: result, carry. Because the lists are in reverse order, we can add the each individual node value, calculate the carry, and populate a new List with a dummy node 
