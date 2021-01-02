@@ -24,6 +24,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 <h2>Solution</h2>
 
-Initial Solution: solution1.cpp only works if the numbers are small.We instead want to approach the problem like a full adder circuit.
+Initial Solution: <a href="https://github.com/andreidimaano/DataStructuresAlgorithms/blob/main/data-structures/linked-list/LeetCode/Add-Two-Numbers/solution1.cpp">solution1.cpp</a> only works if the numbers are small.We instead want to approach the problem like a full adder circuit.
 
 Full Adder Circuit Solution: A Full Adder Circuit takes in 3 inputs: operand1, operand2, carry. It produces 2 outputs: result, carry. 
