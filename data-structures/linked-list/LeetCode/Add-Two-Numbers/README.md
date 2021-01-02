@@ -22,7 +22,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 
 
-<h2>Solution<h2>
+<h2>Solution</h2>
 
 Initial Solution: solution1.cpp only works if the numbers are small.We instead want to approach the problem like a full adder circuit.
 
