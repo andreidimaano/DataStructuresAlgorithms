@@ -22,7 +22,7 @@ class Solution {
                 curr->next = new ListNode(sum % 10);
                 curr = curr->next;
 
-                if(l1) l1 = l1->next;W
+                if(l1) l1 = l1->next;
                 if(l2) l2 = l2->next;
             }
 
