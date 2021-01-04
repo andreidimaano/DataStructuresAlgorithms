@@ -29,4 +29,5 @@
 
 ```type variableName [size] = {1, 2, 3, 4, 5}```
 
-```type variableName [size] = {1, 2, 3, 4, 5}```
+```type variableName [size] = {10, 20, 30} => {10, 20, 30, 0, 0}```
+![Partial Array](https://github.com/andreidimaano/DataStructuresAlgorithms/blob/main/data-structures/arrays/assets/partialArray.png)
