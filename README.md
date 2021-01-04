@@ -4,7 +4,7 @@
 
 Table of Contents
 <ul>
-  <li>Array</li>
+  <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/arrays">Array</a></li>
   <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/linked-list">Linked List</a></li>
   <li>HashMap</li>
   <li>HashSet</li>
