@@ -1,28 +1,24 @@
 #include <vector>
-#include <limits.h>
+
 using namespace std;
 
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
-        if(nums.size() == 0 ) return 0;
-        int count = 0, ans = INT_MIN;
-
+        int count = 0, ans = 0;
         for(unsigned i = 0; i < nums.size(); i++) {
-            if(nums.at(i) == 1) {
-                count++;
-            } else {
-                ans = max(ans, count);
+            if(nums.at(i) == 0) {
                 count = 0;
+            } else {
+                ans = max(++count, ans);
             }
         }
-
-        return max(ans, count);
+        
+        return ans;
     }
-
     int max(int x, int y) {
         return (x > y) ? x : y;
     }
 };
 
-//solution on January 4, 2021
+// solution on January 5, 2021
