@@ -2,4 +2,5 @@
 
 <ul>
     <li><a href="https://leetcode.com/problems/minimum-size-subarray-sum/submissions/">Minimum Size Subarray Sum</a></li>
+    <li><a href="https://leetcode.com/problems/3sum/">3 sum</a></li>
 </ul>
