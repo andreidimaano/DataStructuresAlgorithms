@@ -37,7 +37,7 @@ Notice that the solution set must not contain duplicate triplets.
             <li>check that sum is == 0</li>
             <li>push onto array and check for duplicates</li>
         </ul>
-</0l>
+</ol>
 
 
 
