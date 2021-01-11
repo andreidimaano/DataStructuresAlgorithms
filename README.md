@@ -6,6 +6,7 @@ Table of Contents
 <ul>
   <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/arrays">Array</a></li>
   <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/linked-list">Linked List</a></li>
+  <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/stacks/Valid-Parentheses">Stacks</a></li>
   <li>HashMap</li>
   <li>HashSet</li>
   <li>Graph</li>
