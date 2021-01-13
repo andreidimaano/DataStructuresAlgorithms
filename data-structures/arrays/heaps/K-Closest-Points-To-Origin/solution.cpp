@@ -1,3 +1,8 @@
+#include <vector>
+#include <queue>
+#include <math.h>
+using namespace std;
+
 struct compare {
     bool operator()(const pair<int, int> l, const pair<int, int> r) {
         return l.first < r.first;
