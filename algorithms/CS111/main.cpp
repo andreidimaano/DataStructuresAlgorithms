@@ -8,14 +8,30 @@ using namespace std;
 const int d = 7;
 const int n = 55;
 
-char decryptLetter(int C, const vector<char>& dictionary) {
-    return 'W';
+char decryptLetter(int C, int d, const vector<char>& dictionary) {
+    int coefficient = 1;
+    while(d > 1) {
+        if(d % 2 == 0) {
+            C =  (C * C) % n;
+            d = d / 2;
+        } else {
+            coefficient *= C;
+            C = (C * C) % n;
+            d = (d - 1) / 2;
+        }
+    }
+    
+    if((coefficient * C) % n < dictionary.size()) {
+        return dictionary[(coefficient * C) % n];
+    }
+
+    return '0';
 }
 
 void decode(const vector<int>& message, const vector<char>& dictionary){
     string decryptedMessage = "";
     for(unsigned i = 0; i < message.size(); i++) {
-        char curr = decryptLetter(message[i], dictionary);
+        char curr = decryptLetter(message[i], d, dictionary);
         
         if(curr != '0'){
             decryptedMessage += curr;
@@ -50,8 +66,6 @@ int main() {
     );
 
     dictionary.push_back(' ');
-
-    cout << dictionary.size() << endl << endl;
 
     decode(message, dictionary);
 
