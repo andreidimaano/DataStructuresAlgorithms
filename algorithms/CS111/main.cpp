@@ -21,6 +21,8 @@ char decryptLetter(int C, int d, const vector<char>& dictionary) {
         }
     }
     
+    cout << (coefficient * C) % n << " ";
+
     if((coefficient * C) % n < dictionary.size()) {
         return dictionary[(coefficient * C) % n];
     }
