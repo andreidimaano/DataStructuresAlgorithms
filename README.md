@@ -10,7 +10,7 @@ Table of Contents
   <li>HashMap</li>
   <li>HashSet</li>
   <li>Graph</li>
-  <li>dynamic programming</li>
+  <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/algorithms/dynamic-programming">dynamic programming<a/></li>
 </ul>
 
 
