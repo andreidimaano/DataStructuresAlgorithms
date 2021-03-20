@@ -3,14 +3,11 @@
 <p align="center">This repository contains implementations of Data Structures and Algorithms in C++. I use this repository for notetaking, reviewing, and posting leetcode solutions. I'll be using the <a href="https://www.youtube.com/watch?v=fDbxPVn02VU">Active Recall Framework</a> in order to study for interviews! </p>
 
 Table of Contents
-<ul>
-  <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/arrays">Array</a></li>
-  <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/linked-list">Linked List</a></li>
-  <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/stacks/Valid-Parentheses">Stacks</a></li>
-  <li>HashMap</li>
-  <li>HashSet</li>
-  <li>Graph</li>
-  <li><a href="https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/algorithms/dynamic-programming">dynamic programming<a/></li>
-</ul>
-
+* [Array](https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/arrays)
+* [Linked List](https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/linked-list)
+* [Stacks](https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/stacks/)
+* [Hash Map]()
+* [Hash Set]()
+* [Graph](https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/data-structures/graph)
+* [Dynamic Programming](https://github.com/andreidimaano/DataStructuresAlgorithms/tree/main/algorithms/dynamic-programming)
 
