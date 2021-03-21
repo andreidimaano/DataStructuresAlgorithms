@@ -37,6 +37,8 @@ Notice that the variable `k` defines the length of a string. `i` and `j` = defin
 
 ### new concept
 c++ specific: 
-```memset(ptr, [fill with this value], sizeof)```
+```
+memset(ptr, [fill with this value], sizeof)
+```
 memset allows us to fill a block of memory.
 
