@@ -34,3 +34,9 @@ for(unsigned k = 2; k < n; k++) {
 }
 ```
 Notice that the variable `k` defines the length of a string. `i` and `j` = define the endpoints.
+
+### new concept
+c++ specific: 
+```memset(ptr, [fill with this value], sizeof)```
+memset allows us to fill a block of memory.
+
